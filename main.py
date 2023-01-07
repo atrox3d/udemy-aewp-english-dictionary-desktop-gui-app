@@ -19,6 +19,7 @@ def get_definition():
         text = '\n'.join(definition)
     else:
         text = f'term {term} not found, please check'
+    print(f'{text=}')
     output.setText(f'{text}')
 
 
